@@ -33,7 +33,7 @@ class Node2Vec(Word2Vec):
 
         super().__init__(
             sg=1,
-            iter=1,
+            epochs=1,
             size=dim,
             window=context,
             min_count=1,
