@@ -34,7 +34,7 @@ class Node2Vec(Word2Vec):
         super().__init__(
             sg=1,
             epochs=1,
-            size=dim,
+            vector_size=dim,
             window=context,
             min_count=1,
             workers=workers,
